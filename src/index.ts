@@ -1,4 +1,5 @@
 import { ComponentManager, setPropertyDidChange } from '@glimmer/component';
+import initializeCustomElements from '@glimmer/web-component';
 import App from './main';
 
 const app = new App();
@@ -17,3 +18,7 @@ app.registerInitializer({
 app.renderComponent('CountUp', containerElement, null);
 
 app.boot();
+
+initializeCustomElements(app, {
+  'count-up': 'CountUp'
+});

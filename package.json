@@ -20,6 +20,8 @@
     "@glimmer/inline-precompile": "^1.0.0",
     "@glimmer/resolver": "^0.4.1",
     "@glimmer/test-helpers": "^0.31.1",
+    "@glimmer/web-component": "^0.3.1",
+    "@rollup/plugin-node-resolve": "^6.0.0",
     "@types/qunit": "^2.0.31",
     "broccoli-asset-rev": "^2.5.0",
     "ember-cli": "^2.14.0",
@@ -33,5 +35,7 @@
   "engines": {
     "node": ">= 4.0"
   },
-  "private": true
+  "dependencies": {
+    "countup.js": "^2.0.4"
+  }
 }
