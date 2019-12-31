@@ -1,7 +1,7 @@
 {
   "name": "count-up",
   "version": "0.0.0",
-  "description": "A brand new Glimmer app.",
+  "description": "A brand new Glimmer app for CountUp.",
   "directories": {
     "doc": "doc",
     "test": "tests"
